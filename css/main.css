@@ -2,7 +2,7 @@
 /* CSS Document */
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -48,14 +48,14 @@ p {
 }
 
 h4 {
-	font-family: 'Rock Salt', cursive;
-	color: #eaeaea;
-	font-size: 2.8em;
-	margin-top: 50px;
+  font-family: 'Rock Salt', cursive;
+  color: #eaeaea;
+  font-size: 2.8em;
+  margin-top: 50px;
 }
 
 section > h3 {
-	margin-left: 40px;
+  margin-left: 40px;
 }
 
 header {
@@ -63,13 +63,13 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-	background-image: url("C:/Users/jngyn/Desktop/awesomefest-files/images/awesomefest-header.jpg");
-	background-size: contain;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	width: 100%;
+  background-image: url("C:/Users/jngyn/Desktop/awesomefest-files/images/awesomefest-header.jpg");
+  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
 }
 
 .images {
@@ -77,23 +77,23 @@ header {
 }
 
 .images div #imgTwo {
-	width: 600px;
-	height: 426px;
-	display: block;
+  width: 600px;
+  height: 426px;
+  display: block;
 }
 
 table {
-	margin: 0 12%;
-	border-collapse: collapse;
-	border-spacing: 10px 0;
+  margin: 0 12%;
+  border-collapse: collapse;
+  border-spacing: 10px 0;
 }
 
 table, td, tr {
-	border: 1px solid #DDD;
+  border: 1px solid #DDD;
 }
 
 td, tr {
-	padding: 10px;
+  padding: 10px;
 }
 
 main {
@@ -107,20 +107,20 @@ footer p {
 
 /* Form styles including color transition effect when user enters text in textbox */
 input[type=text], input[type=email], input[type=tel], select {
-	width: 100%;
+  width: 100%;
   padding: 12px;
   border: 3px solid #CCC;
   border-radius: 20px;
   box-sizing: border-box;
-	box-shadow: 0 0 10px #2B88DE;
-	transition: 0.5s;
-	outline: none;
+  box-shadow: 0 0 10px #2B88DE;
+  transition: 0.5s;
+  outline: none;
   resize: vertical;
 }
 
 /* transition color - used :focus to target input field to change colors */
 input[type=text]:focus {
-	border: 3px solid #65D1F9;
+  border: 3px solid #65D1F9;
 }
 
 input[type=submit] {
@@ -137,27 +137,27 @@ input[type=submit] {
 label {
   padding: 12px 12px 12px 0;
   display: inline-block;
-	font-family: 'Rock Salt', cursive;
-	font-weight: bold;
+  font-family: 'Rock Salt', cursive;
+  font-weight: bold;
 }
 
 /* Form container */
 .container {
-	display: inline-block;
-	border-radius: 5px;
+  display: inline-block;
+  border-radius: 5px;
   padding: 60px;
-	background-color: rgb(117,70,120,0.4);
-	width: 100%;
-	height: 845px;
+  background-color: rgb(117,70,120,0.4);
+  width: 100%;
+  height: 845px;
 }
 
 /* Heart Icon */
 i {
-	padding: 50px;
-	margin-top: 20px;
-	color: #000;
+  padding: 50px;
+  margin-top: 20px;
+  color: #000;
 }
 
 section > i {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
